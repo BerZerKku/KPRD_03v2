@@ -86,14 +86,15 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Project\Circuit\ORCAD\KPRD\03v2\kprd_03v2.dsn")
+         "d:\project\circuit\orcad\kprd\03v2\kprd_03v2.dsn")
       (Path "Design Resources"
-         "D:\Project\Circuit\ORCAD\KPRD\03v2\kprd_03v2.dsn" "MAIN")
+         "d:\project\circuit\orcad\kprd\03v2\kprd_03v2.dsn" "A - INPUTS")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprd\03v2\kprd_03v2.dsn" "B - INPUT")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "D:\Project\Circuit\ORCAD\KPRD\03v2\kprd_03v2.dsn"))
+         "d:\project\circuit\orcad\kprd\03v2\kprd_03v2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -103,9 +104,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 27 1399 28 486")
-        (Scroll "-555 -8")
-        (Zoom "54")
+        (Placement "44 0 1 -1 -1 -4 -29 27 1399 28 486")
+        (Scroll "-216 16")
+        (Zoom "108")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V2\KPRD_03V2.DSN")
       (Schematic "MAIN")
