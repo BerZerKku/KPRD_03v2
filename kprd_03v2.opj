@@ -78,6 +78,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (UCC27537
       (FullPartName "UCC27537.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
@@ -85,13 +89,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\kprd_03v2.dsn")
-      (Path "Design Resources" ".\kprd_03v2.dsn" "MAIN")
-      (Path "Design Resources" ".\kprd_03v2.dsn" "A - INPUTS")
-      (Path "Design Resources" ".\kprd_03v2.dsn" "B - INPUT")
+      (Path "Design Resources"
+         "d:\projects\cadence\kprd\kprd_03v2\kprd_03v2.dsn")
+      (Path "Design Resources"
+         "d:\projects\cadence\kprd\kprd_03v2\kprd_03v2.dsn" "MAIN")
+      (Path "Design Resources"
+         "d:\projects\cadence\kprd\kprd_03v2\kprd_03v2.dsn" "A - INPUTS")
+      (Path "Design Resources"
+         "d:\projects\cadence\kprd\kprd_03v2\kprd_03v2.dsn" "B - INPUT")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\kprd_03v2.dsn" "A - INPUTS" "A - INPUTS"))
+      (Select "Design Resources"
+         "d:\projects\cadence\kprd\kprd_03v2\kprd_03v2.dsn" "MAIN" "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -101,9 +110,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 81 1424 84 726")
-        (Scroll "-235 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -29 81 1424 84 726")
+        (Scroll "484 79")
+        (Zoom "247")
         (Occurrence "/"))
       (Path "D:\PROJECTS\CADENCE\KPRD\KPRD_03V2\KPRD_03V2.DSN")
       (Schematic "MAIN")
@@ -111,7 +120,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 162 1482 168 786")
+        (Placement "44 0 1 -1 -1 -4 -29 162 1482 168 786")
         (Scroll "88 50")
         (Zoom "200")
         (Occurrence "/A1"))
