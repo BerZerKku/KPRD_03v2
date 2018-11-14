@@ -85,24 +85,38 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\Project\Circuit\KPRD\03v2\kprd_03v2.dsn")
-      (Path "Design Resources" "D:\Project\Circuit\KPRD\03v2\kprd_03v2.dsn"
-         "MAIN")
-      (Path "Design Resources" "D:\Project\Circuit\KPRD\03v2\kprd_03v2.dsn"
-         "A - INPUTS")
-      (Path "Design Resources" "D:\Project\Circuit\KPRD\03v2\kprd_03v2.dsn"
-         "B - INPUT")
+      (Path "Design Resources" ".\kprd_03v2.dsn")
+      (Path "Design Resources" ".\kprd_03v2.dsn" "MAIN")
+      (Path "Design Resources" ".\kprd_03v2.dsn" "A - INPUTS")
+      (Path "Design Resources" ".\kprd_03v2.dsn" "B - INPUT")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "D:\Project\Circuit\KPRD\03v2\kprd_03v2.dsn"
-         "MAIN" "MAIN")
-      (Select "Design Resources" "D:\Project\Circuit\KPRD\03v2\kprd_03v2.dsn"
-         "A - INPUTS" "A - INPUTS"))
+      (Select "Design Resources" ".\kprd_03v2.dsn" "A - INPUTS" "A - INPUTS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
-      (Tab 0)))
-  (MPSSessionName "Shcheblykin")
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 967"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 81 1424 84 726")
+        (Scroll "-235 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\CADENCE\KPRD\KPRD_03V2\KPRD_03V2.DSN")
+      (Schematic "MAIN")
+      (Page "MAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -29 162 1482 168 786")
+        (Scroll "88 50")
+        (Zoom "200")
+        (Occurrence "/A1"))
+      (Path "D:\PROJECTS\CADENCE\KPRD\KPRD_03V2\KPRD_03V2.DSN")
+      (Schematic "A - INPUTS")
+      (Page "A - INPUTS")))
+  (MPSSessionName "vershinin")
   (ISPCBBASICLICENSE "false"))
