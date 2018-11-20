@@ -1,3 +1,7 @@
+/pcb/log/
+/pcb/rep/
+signoise.run
+
 *.jrl*
 *.log*
 *.txt,*
@@ -5,3 +9,14 @@
 *.dml
 *.*,*
 *.cnv*
+*.bak
+*.bdf
+*.ldf
+*.dbk
+*.drc
+*.dmp
+*.par
+eco.txt
+master.tag
+*.lst
+pxlBA.txt
